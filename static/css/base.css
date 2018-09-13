@@ -1,0 +1,30 @@
+@import "https://fonts.googleapis.com/css?family=Abril+Fatface|Permanent+Marker|Roboto|Roboto+Slab";
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav{
+  background: transparent;
+  z-index: 1000!important;
+  position: relative;
+  border-bottom: none;
+  box-shadow: none;
+}
+
+nav a:active{
+  border-bottom: 2px solid #000;
+}
+
+nav a:hover{
+  border-bottom: 2px solid #000;
+  transition: ease-in-out;
+}
+
+.material-tooltip > .backdrop {
+    background-color: transparent;
+}
+

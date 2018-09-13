@@ -1,0 +1,126 @@
+  <!DOCTYPE html>
+  {% load static %}
+  <html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+            <link rel="shortcut icon" href="{% static 'images/ic.ico' %}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Import personal CSS -->
+    <link type="text/css" rel="stylesheet" href= "{% static 'css/base.css' %}">
+    <link type="text/css" rel="stylesheet" href="{% static 'css/home.css' %}">
+
+    <title>Home</title>
+  </head>
+  <body>
+   <!-- Nav-Bar -->
+   <nav>
+
+    <div class="nav-wrapper">
+      <img style="max-width: 150px; max-height: 150px;" src="{% static 'images/logo2.png' %}">
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="/" style="color: #000;">Home</a></li>
+      <li><a href="/about" style="color: #000;">About</a></li>
+      <li><a href="https://goo.gl/forms/F2tHjA91ToA0dZQy2" style="color: #000;" target="blank">WorkWithUs(Registration Form)</a></li>
+      <li><a href="/contactus" style="color: #000;">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="home_back">
+  <!-- Content -->
+  <section class="skewedBox">
+    <div class="box">
+      <h1>MarkWithUs</h1>
+      <h5>|Epitome of customer centricity|</h5>
+    </div>
+  </section>
+  <section class="details">
+    
+<div style="background: #db0000">
+  <div align="center" class="container" style="text-align: justify; margin-top: -190px; color: #fff; padding-top: 20px;padding-bottom: 20px;">
+    <h1 class="dm" >What we do?</h1>
+     <p>Being a customer centric company, we firstly understand exactly what our client requires and create a campaign that best suits their demand. We then use our Work with us Campaign where we have a big network of people who help us spreading the campaign across the country and bringing in leads and valuable insights for the company, at the same time spreading the name of the company all over the country. We even use our analysis in the on-goings campaigns to figure out our worst and best areas in order to increase the performance of the campaign and the company.
+</p>
+   </div>
+</div>
+
+<div style="background: #0f929b">
+  <div align="center" class="container" style="text-align: justify; color: #fff; padding-top: 20px;padding-bottom: 20px;">
+    <h2 class="dm" >Sales and Marketing</h2>
+    <div align="center">
+      <img src="{% static 'images/affiliate.png' %}" align="center">
+    </div>
+    <p>Takes care of venture acquirement. This is likewise start of the venture at this phase where you need to ensure that customer desires are set right and customer comprehends what he/she is paying, what they will receive consequently.</p>
+   </div>
+</div>
+
+<div style="background: #d86c00">
+  <div align="center" class="container" style="text-align: justify; color: #fff; padding-top: 20px;padding-bottom: 20px;">
+    <h2 class="dm">Social Media and Marketing</h2>
+    <div align="center">
+      <img src="{% static 'images/com.png' %}" align="center">
+    </div>
+     <p>Social Media Marketing or SMM is an offshoot of your SEM(Search Engine Marketing) efforts. It involves driving traffic to your sites or business through social sites like Facebook, Instagram, Twitter, Pinterest, Google+, Linkedin, etc.</p>
+   </div>
+</div>
+
+<div style="background: #0e8c51">
+  <div align="center" class="container" style="text-align: justify; color: #fff; padding-top: 20px;padding-bottom: 20px;">
+    <h2 class="dm" >User Acquisition and Engagement</h2>
+    <div align="center">
+      <img src="{% static 'images/team.png' %}" align="center">
+    </div>
+     <p>People who use any type of product, such as apps or software programs, are considered users. These users are the foundation of a business. Without users, you have no way to make money, regardless of your monetization model. The first job of marketing, advertising, and business in general is to get more users.</p>
+   </div>
+</div>
+
+<div style="background: #75aaff">
+  <div align="center" class="container" style="text-align: justify; color: #fff; padding-top: 20px;padding-bottom: 20px;">
+    <h2 class="dm" >App Promotion and Downloads</h2>
+    <div align="center">
+      <img src="{% static 'images/ui.png' %}" align="center">
+    </div>
+     <p>Mobile Applications are more handy and easy to use. So, some campaigns are more concentrated toward the promotion of the application and increment of the number of downloads. By this companies tends to increase traffic of the app and the number of downloads.</p>
+   </div>
+</div>
+
+<div style="background: #b51e10">
+  <div align="center" class="container" style="text-align: justify; color: #fff; padding-top: 20px;padding-bottom: 20px;">
+    <h2 class="dm" >Other Services We Offer</h2>
+    <div align="center">
+      <img src="{% static 'images/customerservice.png' %}">
+    </div>
+     <ul style="list-style-type:circle;">
+      <li>-> Brand Awareness</li>
+      <li>-> Afiliate Marketing</li>
+      <li>-> Lead Nurturing</li>
+      <li>-> B2B Marketing</li>
+      <li>-> Inventory Based Marketing</li>
+<li>-> Youth Marketing</li>
+    </ul>
+     
+   </div>
+</div>
+  </section>
+</div>
+
+
+        <!-- Footer -->
+        <footer>
+          <img style="max-height: 100%;max-width: 100%;" src="{% static 'images/sil.png' %}">
+          
+        </footer>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!-- Scroll -->
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  
+</body>
+</html>

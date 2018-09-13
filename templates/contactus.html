@@ -1,0 +1,84 @@
+  <!DOCTYPE html>
+    {% load static %}
+
+  <html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="shortcut icon" href="{% static 'images/ic.ico' %}">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Import personal CSS -->
+    <link type="text/css" rel="stylesheet" href= "{% static 'css/base.css' %}">
+    <link type="text/css" rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link type="text/css" rel="stylesheet" href= "{% static 'css/contact.css' %}">
+
+
+    <title>Contact Us</title>
+  </head>
+  <body>
+   <!-- Nav-Bar -->
+   <nav>
+
+    <div class="nav-wrapper">
+      <img style="max-width: 150px; max-height: 150px;" src="{% static 'images/logo2.png' %}">
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="/" style="color: #000;">Home</a></li>
+      <li><a href="/about" style="color: #000;">About</a></li>
+      <li><a href="https://goo.gl/forms/F2tHjA91ToA0dZQy2" style="color: #000;" target="blank">WorkWithUs(Registration Form)</a></li>
+      <li><a href="/contactus" style="color: #000;">Contact Us</a></li>
+
+    </ul>
+  </div>
+</nav>
+<div class="home_back">
+  <!-- Content -->
+  <section class="skewedBox">
+    <div class="box">
+      <h1>MarkWithUs</h1>
+      <h6>"Epitome of customer centricity!"</h6>
+    </div>
+  </section>
+  <section class="details">
+    <div style="background: #0b7568" align="center">
+  <div align="center" class="container" style="text-align: justify; margin-top: -190px; color: #fff; padding-top: 20px;padding-bottom: 20px;">
+    <div align="center">
+      <img src="{% static 'images/callc.png' %}" style="max-width: 350px; max-height: 350px;">
+    </div>
+
+    <h1 class="dm" align="center">Contact Us!</h1>
+     <p align="center">Email: business@markwithus.com</p>
+      <p align="center">Phone: +91-7087065314</p>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col s12 m4 l4" align="right">
+          <img style="max-width: 150px; max-height: 150px;" src="{% static 'images/instagram.png' %}">
+        </div>
+        <div class="col s12 m4 l4" align="center">
+          <img style="max-width: 150px; max-height: 150px;" src="{% static 'images/facebook.png' %}">
+        </div>
+        <div class="col s12 m4 l4" align="left">
+          <img style="max-width: 150px; max-height: 150px;" src="{% static 'images/linkedin.png' %}">
+        </div>
+      </div>
+   </div>
+</div>
+  </section>
+</div>
+
+
+        <!-- Footer -->
+      <footer>
+          <img style="max-height: 100%;max-width: 100%;" src="{% static 'images/sil.png' %}">
+        </footer>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!-- Scroll -->
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  
+</body>
+</html>
