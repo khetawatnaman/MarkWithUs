@@ -19,9 +19,6 @@ import os
 import django
 from django.core.handlers.wsgi import WSGIHandler
 
-
-
-
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "MarkWithUs.settings")
 django.setup(set_prefix=False)
 
